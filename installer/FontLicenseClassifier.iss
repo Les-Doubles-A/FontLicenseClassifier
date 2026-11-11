@@ -1,8 +1,8 @@
 ﻿; Installeur Inno Setup de FontLicenseClassifier. Compilation : iscc installer\FontLicenseClassifier.iss
-; Le setup est cree dans installer\Output\FontLicenseClassifier-Setup-1.0.0.exe
+; Le setup est cree dans installer\Output\FontLicenseClassifier-Setup-1.0.1.exe
 #define MyAppExe "FontLicenseClassifier.exe"
 #define MyAppName "FontLicenseClassifier"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppURL "https://github.com/Les-Doubles-A/FontLicenseClassifier"
 
 [Setup]
@@ -26,7 +26,7 @@ WizardStyle=modern
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 CloseApplications=yes
-SetupIconFile=..\FontCheck_tool\FontCheck.ico
+SetupIconFile=..\FontLicenseClassifier.ico
 UninstallDisplayIcon={app}\FontLicenseClassifier.exe
 
 [Languages]
